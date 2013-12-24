@@ -1,0 +1,1 @@
+{"prepare_queue":{"installed":[],"uninstalled":[]},"config_munge":{"config.xml":{"/*":{"<feature name=\"Weixin\"><param name=\"ios-package\" value=\"CDVWeixin\" /></feature>":1}}},"installed_plugins":{"xu.li.cordova.weixin":{"PACKAGE_NAME":"xu.li.cordova.weixin.example"}},"dependent_plugins":{}}
