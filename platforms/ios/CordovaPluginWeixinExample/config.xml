@@ -13,7 +13,6 @@
     <preference name="PageLength" value="0" />
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
-    <preference name="weixinappid" value="cordovapluginweixinexample" />
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
@@ -29,4 +28,5 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <preference name="weixinappid" value="cordovapluginweixinexample" />
 </widget>

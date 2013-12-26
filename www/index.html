@@ -31,20 +31,20 @@
             <div data-role="header">
                 <h1>DEMO</h1>
             </div><!-- /header -->
-        
+            
             <div role="main" class="ui-content">
                 <form id="demo">
                     <label for="txtTitle">Title:</label>
-                    <input type="text" name="title" id="txtTitle" value="Awesome!" placeholder="Your message title" />
+                    <input type="text" name="message[title]" id="txtTitle" value="Awesome!" placeholder="Your message title" />
                     
                     <label for="txtDescription">Description:</label>
-                    <textarea cols="40" rows="8" name="description" id="txtDescription" placeholder="Your message description(Optional)"></textarea>
+                    <textarea cols="40" rows="8" name="message[description]" id="txtDescription" placeholder="Your message description(Optional)"></textarea>
 
                     <label for="txtThumb">Thumbnail url:</label>
-                    <input type="text" name="thumb" id="txtThumb" value="http://cordova.apache.org/images/cordova_bot.png" placeholder="Your thumbnail image(keep it small)" />
+                    <input type="text" name="message[thumb]" id="txtThumb" value="http://cordova.apache.org/images/cordova_bot.png" placeholder="Your thumbnail image(keep it small)" />
 
                     <label for="txtUrl">Url:</label>
-                    <input type="text" name="url" id="txtUrl" value="http://www.google.com" placeholder="The url after clicking on the feed" />
+                    <input type="text" name="message[media][webpageUrl]" id="txtUrl" value="http://www.google.com" placeholder="The url after clicking on the feed" />
 
                     <input type="button" value="Share!" id="btnShare" />
                 </form>

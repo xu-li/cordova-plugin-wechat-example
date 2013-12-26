@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BC3F330264B45DEB6DC63B4 /* CDVWeixin.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9B00B20E734FC5AC8005C9 /* CDVWeixin.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1F766FE113BBADB100FB74C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F766FDC13BBADB100FB74C0 /* Localizable.strings */; };
@@ -41,6 +40,7 @@
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		EC2D4FDC1869323600E1C155 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2D4FD91869323600E1C155 /* libWeChatSDK.a */; };
+		EC2D4FE9186BDDF300E1C155 /* CDVWeixin.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9B00B20E734FC5AC8005C9 /* CDVWeixin.m */; };
 		F840E1F1165FE0F500CFE078 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
 /* End PBXBuildFile section */
 
@@ -430,10 +430,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2D4FE9186BDDF300E1C155 /* CDVWeixin.m in Sources */,
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				0BC3F330264B45DEB6DC63B4 /* CDVWeixin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
