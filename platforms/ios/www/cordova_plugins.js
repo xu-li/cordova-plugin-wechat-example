@@ -3,7 +3,7 @@ module.exports = [];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "xu.li.cordova.weixin": "0.2"
+    "xu.li.cordova.wechat": "0.2"
 }
 // BOTTOM OF METADATA
 });

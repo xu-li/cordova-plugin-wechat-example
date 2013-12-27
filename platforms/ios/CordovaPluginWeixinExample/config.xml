@@ -16,8 +16,8 @@
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage" />
     </feature>
-    <feature name="Weixin">
-        <param name="ios-package" value="CDVWeixin" />
+    <feature name="Wechat">
+        <param name="ios-package" value="CDVWechat" />
     </feature>
     <name>CordovaPluginWeixinExample</name>
     <description>
@@ -28,5 +28,5 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <preference name="weixinappid" value="cordovapluginweixinexample" />
+    <preference name="wechatappid" value="cordovapluginweixinexample" />
 </widget>

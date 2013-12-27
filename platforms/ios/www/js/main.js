@@ -34,7 +34,7 @@ var App = {
                 alert("Success");
             }, function (reason) {
                 alert("Failed: " + reason);
-            }, 'Weixin', 'share', [$("#demo").serializeObject()]);
+            }, 'Wechat', 'share', [$("#demo").serializeObject()]);
         });
     }
 };
