@@ -1,4 +1,4 @@
-cordova-plugin-weixin-example
+cordova-plugin-wechat-example
 ===============
 
-An example of [cordova-plugin-weixin](https://github.com/xu-li/cordova-plugin-weixin)
+An example of [cordova-plugin-wechat](https://github.com/xu-li/cordova-plugin-wechat)
