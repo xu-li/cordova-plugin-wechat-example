@@ -41,7 +41,7 @@ cordova.exec(function () {
        mediaTagName: "Media Tag Name(optional)",
        thumb: "http://YOUR_THUMBNAIL_IMAGE",
        media: {
-           type: 1,   webpage
+           type: 1,   // webpage
            webpageUrl: "https://github.com/xu-li/cordova-plugin-wechat"    // webpage
        }
    },

@@ -18,6 +18,7 @@
     </feature>
     <feature name="Wechat">
         <param name="ios-package" value="CDVWechat" />
+        <param name="onload" value="true" />
     </feature>
     <name>CordovaPluginWeixinExample</name>
     <description>

@@ -39,8 +39,8 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		EC2D4FDC1869323600E1C155 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2D4FD91869323600E1C155 /* libWeChatSDK.a */; };
-		EC2D4FF4186D1EF500E1C155 /* CDVWechat.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E8F7FAC6BA4D19A0F6429E /* CDVWechat.m */; };
+		EC2D5000186D2CDF00E1C155 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2D4FFD186D2CDF00E1C155 /* libWeChatSDK.a */; };
+		EC2D5008186D7A2300E1C155 /* CDVWechat.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A31F218E114320869523C3 /* CDVWechat.m */; };
 		F840E1F1165FE0F500CFE078 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
 /* End PBXBuildFile section */
 
@@ -88,9 +88,9 @@
 		30A0434714DC770100060A13 /* se */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = se; path = Localizable.strings; sourceTree = "<group>"; };
 		30FC414816E50CA1004E6F35 /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* CordovaPluginWeixinExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CordovaPluginWeixinExample-Prefix.pch"; sourceTree = "<group>"; };
+		434489778E1A4E1A95066D5B /* CDVWechat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVWechat.h; path = xu.li.cordova.wechat/CDVWechat.h; sourceTree = "<group>"; };
 		5AEE5B34173C68D80009041E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		69E8F7FAC6BA4D19A0F6429E /* CDVWechat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVWechat.m; path = xu.li.cordova.wechat/CDVWechat.m; sourceTree = "<group>"; };
 		7E7966D41810823500FA85AD /* icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40.png"; sourceTree = "<group>"; };
 		7E7966D51810823500FA85AD /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@2x.png"; sourceTree = "<group>"; };
 		7E7966D61810823500FA85AD /* icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-50.png"; sourceTree = "<group>"; };
@@ -102,11 +102,11 @@
 		7E7966DC1810823500FA85AD /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
 		7E7966DD1810823500FA85AD /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CordovaPluginWeixinExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CordovaPluginWeixinExample-Info.plist"; path = "../CordovaPluginWeixinExample-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		BAF504C02A924BA5A82664AF /* CDVWechat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVWechat.h; path = xu.li.cordova.wechat/CDVWechat.h; sourceTree = "<group>"; };
+		D3A31F218E114320869523C3 /* CDVWechat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVWechat.m; path = xu.li.cordova.wechat/CDVWechat.m; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
-		EC2D4FD91869323600E1C155 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
-		EC2D4FDA1869323600E1C155 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		EC2D4FDB1869323600E1C155 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		EC2D4FFD186D2CDF00E1C155 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		EC2D4FFE186D2CDF00E1C155 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		EC2D4FFF186D2CDF00E1C155 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = CordovaPluginWeixinExample/config.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,7 +117,7 @@
 			files = (
 				5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */,
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
-				EC2D4FDC1869323600E1C155 /* libWeChatSDK.a in Frameworks */,
+				EC2D5000186D2CDF00E1C155 /* libWeChatSDK.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
 				5AEE5B35173C68D80009041E /* CoreLocation.framework in Frameworks */,
@@ -167,12 +167,14 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				EC2D4FFD186D2CDF00E1C155 /* libWeChatSDK.a */,
+				EC2D4FFE186D2CDF00E1C155 /* WXApi.h */,
+				EC2D4FFF186D2CDF00E1C155 /* WXApiObject.h */,
 				F840E1F0165FE0F500CFE078 /* config.xml */,
 				301BF56E109A69640062928A /* www */,
 				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				307C750510C5A3420062BCA9 /* Plugins */,
-				EC2D4FD71869320B00E1C155 /* Lib */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -228,8 +230,8 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				69E8F7FAC6BA4D19A0F6429E /* CDVWechat.m */,
-				BAF504C02A924BA5A82664AF /* CDVWechat.h */,
+				D3A31F218E114320869523C3 /* CDVWechat.m */,
+				434489778E1A4E1A95066D5B /* CDVWechat.h */,
 			);
 			name = Plugins;
 			path = CordovaPluginWeixinExample/Plugins;
@@ -284,24 +286,6 @@
 				30A0434614DC770100060A13 /* Localizable.strings */,
 			);
 			path = se.lproj;
-			sourceTree = "<group>";
-		};
-		EC2D4FD71869320B00E1C155 /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				EC2D4FD81869321D00E1C155 /* Weixin */,
-			);
-			name = Lib;
-			sourceTree = "<group>";
-		};
-		EC2D4FD81869321D00E1C155 /* Weixin */ = {
-			isa = PBXGroup;
-			children = (
-				EC2D4FD91869323600E1C155 /* libWeChatSDK.a */,
-				EC2D4FDA1869323600E1C155 /* WXApi.h */,
-				EC2D4FDB1869323600E1C155 /* WXApiObject.h */,
-			);
-			name = Weixin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,7 +414,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC2D4FF4186D1EF500E1C155 /* CDVWechat.m in Sources */,
+				EC2D5008186D7A2300E1C155 /* CDVWechat.m in Sources */,
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
@@ -499,7 +483,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/xu.li/Projs/CrossPlatform/cordova-plugin-weixin-example/platforms/ios",
+					"/Users/xu.li/Projs/CrossPlatform/cordova-plugin-wechat-example/platforms/ios",
 				);
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -534,7 +518,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/xu.li/Projs/CrossPlatform/cordova-plugin-weixin-example/platforms/ios",
+					"/Users/xu.li/Projs/CrossPlatform/cordova-plugin-wechat-example/platforms/ios",
 				);
 				OTHER_LDFLAGS = (
 					"-weak_framework",

@@ -30,11 +30,11 @@ var App = {
     
     bindFormEvents: function () {
         $("#btnShare").click(function () {
-            cordova.exec(function () {
+            Wechat.share($("#demo").serializeObject(), function () {
                 alert("Success");
             }, function (reason) {
                 alert("Failed: " + reason);
-            }, 'Wechat', 'share', [$("#demo").serializeObject()]);
+            });
         });
     }
 };
