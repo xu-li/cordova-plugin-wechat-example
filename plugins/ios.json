@@ -1,1 +1,0 @@
-{"prepare_queue":{"installed":[],"uninstalled":[]},"config_munge":{"config.xml":{"/*":{"<feature name=\"Wechat\"><param name=\"ios-package\" value=\"CDVWechat\" /><param name=\"onload\" value=\"true\" /></feature>":1}}},"installed_plugins":{"xu.li.cordova.wechat":{"PACKAGE_NAME":"xu.li.cordova.weixin.example"}},"dependent_plugins":{}}
