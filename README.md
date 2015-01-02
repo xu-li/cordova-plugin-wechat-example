@@ -2,4 +2,4 @@
 
 ## Ionic Demo
 
-See https://github.com/xu-li/cordova-plugin-wechat-example/ionic/
+See https://github.com/xu-li/cordova-plugin-wechat-example/tree/master/ionic
