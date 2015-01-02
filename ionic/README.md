@@ -10,5 +10,5 @@ See [cordova-plugin-wechat](https://github.com/xu-li/cordova-plugin-wechat)
 4. Open project in XCode, and change the URL Type. See screenshot below.
 5. Run it on your device
 
-![URL Type - 1](https://raw.githubusercontent.com/xu-li/cordova-plugin-wechat-example/assets/screenshot-1.jpg)
-![URL Type - 2](https://raw.githubusercontent.com/xu-li/cordova-plugin-wechat-example/assets/screenshot-2.jpg)
+![URL Type - 1](https://raw.githubusercontent.com/xu-li/cordova-plugin-wechat-example/master/assets/screenshot-1.jpg)
+![URL Type - 2](https://raw.githubusercontent.com/xu-li/cordova-plugin-wechat-example/master/assets/screenshot-2.jpg)
