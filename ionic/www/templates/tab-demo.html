@@ -1,0 +1,21 @@
+<ion-view view-title="Demo">
+    <ion-content>
+        <div class="list">
+        
+            <div class="item item-divider"> 
+                分享场景: {{data.selectedSceneLabel}}
+            </div>
+            
+            <ion-radio ng-repeat="scene in scenes" ng-value="scene.value" ng-model="data.selectedScene">
+                {{scene.label}}
+            </ion-radio>
+
+            <div class="item item-divider">功能</div>
+
+            <div class="item" ng-repeat="button in buttons" ng-click="share('{{button.id}}');">
+                {{button.label}}
+            </div>
+        </div>
+
+    </ion-content>
+</ion-view>
