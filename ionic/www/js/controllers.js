@@ -24,6 +24,10 @@ angular.module('starter.controllers', [])
 
     $scope.buttons = [
         {
+            id: "check-installed",
+            label: "是否安装了微信"
+        },
+        {
             id: "send-text",
             label: "发送Text消息给微信"
         },
@@ -94,7 +98,7 @@ angular.module('starter.controllers', [])
         });
     }, true);
 
-    $scope.share = function (id) {
+    $scope.handle = function (id) {
         var params = {
             scene: $scope.data.selectedScene
         };
@@ -113,6 +117,12 @@ angular.module('starter.controllers', [])
             };
 
             switch (id) {
+                case 'check-installed':
+                Wechat.isInstalled(function (installed) {
+                    alert("Wechat installed: " + (installed ? "Yes" : "No"));
+                });
+                return ;
+
                 case 'send-photo':
                 params.message.thumb = "www/resources/res1thumb.png";
                 params.message.media.type = Wechat.Type.IMAGE;
@@ -162,6 +172,15 @@ angular.module('starter.controllers', [])
                 params.message.media.type = Wechat.Type.FILE;
                 params.message.media.file = "www/resources/iphone4.pdf";
                 break;
+
+                case 'auth':
+                Wechat.auth("snsapi_userinfo", function (response) {
+                    // you may use response.code to get the access token.
+                    alert(JSON.stringify(response));
+                }, function (reason) {
+                    alert("Failed: " + reason);
+                });
+                return ;
 
                 default:
                 $ionicPopup.alert({

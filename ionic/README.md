@@ -9,9 +9,11 @@ See [cordova-plugin-wechat](https://github.com/xu-li/cordova-plugin-wechat)
 1. ```ionic plugin add https://github.com/xu-li/cordova-plugin-wechat```
 2. ```ionic platform add ios```
 3. ```ionic build ios```
-4. Open project in XCode, and change the URL Type to *wxtestcordovapluginwechat*. See screenshot below.
+4. Open project in XCode, and change the URL Type to *wxd930ea5d5a258f4f*. See screenshot below.
 5. Run it on your device
 
+## CAUTION:
+Since *wxd930ea5d5a258f4f* is copied from official wechat sdk example, if you have that installed, it may return back to wechat sdk example.
 
 ### Screenshot: 
 

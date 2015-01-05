@@ -18,5 +18,5 @@
   </feature>
 
   <!-- for cordova.plugin.wechat -->
-  <preference name="wechatappid" value="wxtestcordovapluginwechat" />
+  <preference name="wechatappid" value="wxd930ea5d5a258f4f" />
 </widget>
