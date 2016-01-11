@@ -6,6 +6,6 @@ See [cordova-plugin-wechat](https://github.com/xu-li/cordova-plugin-wechat)
 
 ## How to run
 
-1. ```ionic plugin add https://github.com/xu-li/cordova-plugin-wechat --variable wechatappid=wx4a525790c75c494f```
+1. ```ionic plugin add cordova-plugin-wechat --variable wechatappid=wx4a525790c75c494f```
 2. ```ionic platform add ios```/```ionic platform add android```
 3. ```ionic run ios```/```ionic run android```

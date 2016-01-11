@@ -17,11 +17,11 @@
   "cordovaPlugins": [
     "com.ionic.keyboard",
     {
-      "locator": "https://github.com/xu-li/cordova-plugin-wechat.git",
-      "id": "xu.li.cordova.wechat",
       "variables": {
-        "": ""
-      }
+        "wechatappid": "wx4a525790c75c494f"
+      },
+      "locator": "cordova-plugin-wechat",
+      "id": "cordova-plugin-wechat"
     }
   ],
   "cordovaPlatforms": [
