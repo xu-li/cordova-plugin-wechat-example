@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item-group>
+    <ion-item-divider color="light">
+      分享场景: {{ selectedScene.label }}
+    </ion-item-divider>
+    <ion-item *ngFor="let scene of scenes" (click)="sceneSelected(scene)">{{ scene.label }}</ion-item>
+
+    <ion-item-divider color="light">
+      功能
+    </ion-item-divider>
+    <ion-item *ngFor="let button of buttons" (click)="buttonClicked(button)">{{ button.label }}</ion-item>
+  </ion-item-group>
+</ion-content>

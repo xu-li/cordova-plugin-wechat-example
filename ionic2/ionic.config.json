@@ -1,0 +1,5 @@
+{
+  "name": "Cordova Wechat Plugin Demo",
+  "app_id": "xu.li.test.cordova.plugin.wechat",
+  "type": "ionic-angular"
+}
